@@ -62,7 +62,7 @@ try:
     df = pd.read_csv(patient_data)
 
     # Ensure 'Input Time' is in datetime format
-    df['Input Time'] = pd.to_datetime(df['Input Time'])
+    df['Input Time'] = pd.to_datetime(df['Input Time'], format='%Y-%m-%d %H:%M:%S')
 
     # Group data by 'Input Time' and count occurrences
     df_grouped = df.groupby(df['Input Time'].dt.date).size().reset_index(name='Count')
