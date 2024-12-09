@@ -46,7 +46,7 @@ with st.form("my_form"):
 # Display the result after the form is submitted
 if submit_button:
     # Get the current timestamp
-    input_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    input_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     
     # Create a new data dictionary to append
     new_data = {
