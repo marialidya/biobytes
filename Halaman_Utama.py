@@ -43,10 +43,10 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
     <div style="text-align: center; padding: 20px; border: 2px solid #990c11; border-radius: 10px;">
-        <img src="https://cdn-icons-png.flaticon.com/512/2936/2936924.png" alt="Hospital Icon" style="width: 50px; margin-bottom: 10px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/709/709043.png" alt="Hospital Icon" style="width: 50px; margin-bottom: 10px;">
         <h3 style="margin: 0;">Rumah Sakit</h3>
         <p style="margin: 0; font-size: 18px; color: #333;">Status Pengampu</p>
-        <h1 style="margin: 10px 0; color: #990c11;">xxx</h1>
+        <h1 style="margin: 10px 0; color: #990c11;">60</h1>
     </div>
     """, unsafe_allow_html=True)
 
@@ -54,10 +54,10 @@ with col1:
 with col2:
     st.markdown("""
     <div style="text-align: center; padding: 20px; border: 2px solid #990c11; border-radius: 10px;">
-        <img src="https://cdn-icons-png.flaticon.com/512/3050/3050517.png" alt="RS/PKM Icon" style="width: 50px; margin-bottom: 10px;">
+        <img src="https://cdn-icons-png.freepik.com/256/6743/6743941.png" alt="RS/PKM Icon" style="width: 50px; margin-bottom: 10px;">
         <h3 style="margin: 0;">RS/PKM</h3>
         <p style="margin: 0; font-size: 18px; color: #333;">Status Diampu</p>
-        <h1 style="margin: 10px 0; color: #990c11;">xxx</h1>
+        <h1 style="margin: 10px 0; color: #990c11;">180</h1>
     </div>
     """, unsafe_allow_html=True)
 
@@ -85,8 +85,8 @@ with col_left:
 # Right column: Vertical cards
 with col_right:
     for title, specialty, count, icon_url in [
-        ("DR. SPESIALIS", "JANTUNG", 360, "https://cdn-icons-png.flaticon.com/512/2917/2917995.png"),
-        ("DR. UMUM", "Dokter Umum", 999, "https://cdn-icons-png.flaticon.com/512/2392/2392364.png"),
+        ("DR. SPESIALIS", "JANTUNG", 105, "https://cdn-icons-png.flaticon.com/512/6025/6025067.png"),
+        ("DR. UMUM", "Dokter Umum", 350, "https://cdn-icons-png.flaticon.com/512/709/709043.png"),
     ]:
         st.markdown(f"""
         <div style="display: flex; align-items: center; padding: 15px; margin-bottom: 15px; border: 2px solid #990c11; border-radius: 10px;">
