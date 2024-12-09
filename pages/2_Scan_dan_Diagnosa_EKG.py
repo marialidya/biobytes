@@ -120,7 +120,7 @@ if st.button("Predict"):
             new_entry = {
                 "Patient ID": st.session_state.patient_id,
                 "Control Date": st.session_state.control_date,
-                "Input Time": st.session_state.input_time,
+                "Input Time": datetime.now().strftime("%d/%m/%Y %H:%M"),
                 "Input By": st.session_state.input_by,
                 "ECG Image": st.session_state.temp_path,  # Store the path to the image
                 "Predicted Class": st.session_state.prediction_result,
