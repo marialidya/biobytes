@@ -20,12 +20,12 @@ st.header("Tentang BioBytes")
 st.write("Kami menyediakan sistem pendukung keputusan klinis berbasis web (CDSS) yang otomatis mengklasifikasikan data EKG, memberikan penilaian kondisi jantung secara cepat dan akurat. Dengan rekomendasi medis yang dapat langsung ditindaklanjuti, solusi kami membantu tenaga medis membuat keputusan tepat, bahkan di daerah dengan akses terbatas ke perawatan spesialis.")
 
 st.header("Fitur Medis BioBytes")
-st.markdown("**Klasifikasi Detak Jantung ECG dengan CDSS:** Sistem berbasis AI yang mengklasifikasikan ECG untuk diagnosis aritmia secara cepat, akurat, dan memberikan rekomendasi tindakan medis yang tepat.")
-st.markdown("**Tele-ECG & Skrining Jantung Jarak Jauh:** Layanan skrining jantung jarak jauh melalui aplikasi berbasis web, memfasilitasi deteksi dini penyakit jantung, terutama di daerah dengan keterbatasan sumber daya medis.")
-st.markdown("**Rekomendasi Tindakan Medis Berbasis AI:** CDSS yang memberikan rekomendasi medis berdasarkan hasil klasifikasi ECG, mendukung pengambilan keputusan yang cepat dan tepat bagi tenaga medis.")
-st.markdown("**Peningkatan Akses Layanan Kesehatan:** Memberikan akses diagnosis jantung yang lebih baik bagi pasien di daerah terpencil, tanpa memerlukan spesialis kardiologi, dan mengurangi ketimpangan layanan kesehatan.")
-st.markdown("**Integrasi Data & Laporan Kesehatan:** Menyediakan laporan kesehatan yang mudah dipahami untuk pemantauan berkelanjutan, membantu pasien dan tenaga medis dalam pengelolaan penyakit jantung secara efisien.")
-st.markdown("**Memangkas Waktu & Meningkatkan Deteksi Dini:** Mempercepat diagnosis, terutama dalam situasi darurat, dan meningkatkan deteksi dini penyakit jantung, memastikan respons medis yang lebih cepat dan akurat.")
+st.markdown("- **Klasifikasi Detak Jantung ECG dengan CDSS:** Sistem berbasis AI yang mengklasifikasikan ECG untuk diagnosis aritmia secara cepat, akurat, dan memberikan rekomendasi tindakan medis yang tepat.")
+st.markdown("- **Tele-ECG & Skrining Jantung Jarak Jauh:** Layanan skrining jantung jarak jauh melalui aplikasi berbasis web, memfasilitasi deteksi dini penyakit jantung, terutama di daerah dengan keterbatasan sumber daya medis.")
+st.markdown("- **Rekomendasi Tindakan Medis Berbasis AI:** CDSS yang memberikan rekomendasi medis berdasarkan hasil klasifikasi ECG, mendukung pengambilan keputusan yang cepat dan tepat bagi tenaga medis.")
+st.markdown("- **Peningkatan Akses Layanan Kesehatan:** Memberikan akses diagnosis jantung yang lebih baik bagi pasien di daerah terpencil, tanpa memerlukan spesialis kardiologi, dan mengurangi ketimpangan layanan kesehatan.")
+st.markdown("- **Integrasi Data & Laporan Kesehatan:** Menyediakan laporan kesehatan yang mudah dipahami untuk pemantauan berkelanjutan, membantu pasien dan tenaga medis dalam pengelolaan penyakit jantung secara efisien.")
+st.markdown("- **Memangkas Waktu & Meningkatkan Deteksi Dini:** Mempercepat diagnosis, terutama dalam situasi darurat, dan meningkatkan deteksi dini penyakit jantung, memastikan respons medis yang lebih cepat dan akurat.")
 
 
 st.header("Statistik")
