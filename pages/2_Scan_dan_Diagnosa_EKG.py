@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Load the pre-trained model
-model = load_model(r"\mount\src\biobytes\pages\MobileNetV2.h5")
+model = load_model(r"\mount\src\biobytes\MobileNetV2.h5")
 
 # Define the class names based on your training data
 class_names = ['S', 'M', 'Q', 'N', 'P', 'V']  # Update with actual class names
