@@ -39,7 +39,8 @@ with st.form("my_form"):
     diastolic_bp = st.number_input("Diastolic Blood Pressure (mm Hg)", min_value = 60, max_value = 130)
     total_cholesterol = st.number_input("Total Cholesterol (mg/dL)", min_value = 130, max_value = 320)
     hdl_cholesterol =  st.number_input("HDL Cholesterol (mg/dL)", min_value = 20, max_value = 100)
-    input_by = st.text_input("Input By")  # Input by field
+    input_by = st.selectbox("Input By", ["Nurse A", "Nurse B"])
+    # input_by = st.text_input("Input By")  # Input by field
     submit_button = st.form_submit_button("Submit")
 
 # Display the result after the form is submitted
