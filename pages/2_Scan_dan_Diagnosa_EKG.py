@@ -82,7 +82,8 @@ with st.form("my_form"):
     patient_id = st.text_input("ID Pasien")
     control_date = st.date_input("Tanggal Periksa")
     input_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    input_by = st.text_input("Input By")
+    input_by = st.selectbox("Input By", ["Nurse A", "Nurse B"])
+    # input_by = st.text_input("Input By")  # Input by field
 
     # Upload image section
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
