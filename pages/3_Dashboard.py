@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 st.set_page_config(
     page_icon="🫀",
@@ -29,7 +30,33 @@ try:
 except FileNotFoundError:
     st.error(f"File '{patient_data}' tidak ditemukan. Pastikan Anda telah memasukkan data pasien.")
 
-st.header("Bar Chart")
+# Calculate counts and percentages
+class_counts = df["Predicted Class"].value_counts().reset_index()
+class_counts.columns = ["Predicted Class", "Count"]
+class_counts["Percentage"] = (class_counts["Count"] / class_counts["Count"].sum()) * 100
+
+# Create a pie chart using Plotly
+fig = px.pie(
+    class_counts,
+    values="Count",
+    names="Predicted Class",
+    title="Predicted Class Distribution",
+    hole=0.4,  # Adds a donut-style chart
+    labels={"Predicted Class": "Class"},
+)
+
+# Add percentages to the hover tooltip
+fig.update_traces(
+    textinfo="percent+label",
+    hoverinfo="label+percent+value",
+    textposition="inside"
+)
+
+# Display in Streamlit
+st.title("Pie Chart Klasifikasi EKG")
+st.plotly_chart(fig)
+
+st.header("Bar Chart Jadwal Kunjungan Pasien")
 # Read the CSV file
 try:
     df = pd.read_csv(patient_data)
@@ -44,7 +71,7 @@ try:
     df_grouped.columns = ['Input Time', 'Patient Count']
 
     # Display grouped data
-    st.write("### Patient Count by Input Date")
+    st.subheader("Jumlah Kunjungan Pasien Per Hari")
     st.dataframe(df_grouped)
 
     # Create a bar chart
