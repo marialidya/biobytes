@@ -1,10 +1,10 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="BioBytes",  # Sets the tab title
-    page_icon="🫀",       # Sets the tab favicon (emoji or image URL)
-    layout="wide",    # Can be "centered" or "wide"
-    initial_sidebar_state="expanded"  # Can be "auto", "expanded", "collapsed"
+    page_title="BioBytes",
+    page_icon="🫀",
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 st.image('https://em-content.zobj.net/source/apple/271/anatomical-heart_1fac0.png', width=150)
@@ -61,7 +61,6 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
 
-# Add a background color if needed
 st.markdown("""
 <style>
     body {
@@ -70,8 +69,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-
-# Create layout
 col_left, col_right = st.columns([1, 2])
 
 # Left column: Title and description
@@ -99,7 +96,6 @@ with col_right:
         </div>
         """, unsafe_allow_html=True)
 
-# Add a background color if needed
 st.markdown("""
 <style>
     body {
