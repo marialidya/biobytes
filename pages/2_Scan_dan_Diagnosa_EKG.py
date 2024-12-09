@@ -63,6 +63,12 @@ if 'temp_path' not in st.session_state:
     st.session_state.temp_path = None
 if 'control_date' not in st.session_state:  
     st.session_state.control_date = None
+if 'patient_id' not in st.session_state:  
+    st.session_state.patient_id = None
+if 'input_time' not in st.session_state:  
+    st.session_state.input_time = None
+if 'input_by' not in st.session_state:  
+    st.session_state.input_by = None
 
 # Streamlit app title
 st.title("Image Classification with Transfer Learning")
