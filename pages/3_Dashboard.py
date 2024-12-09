@@ -10,8 +10,8 @@ st.set_page_config(
 st.title("Dashboard")
 
 # Path to your CSV file
-patient_data = r'C:\Users\Lydia\Documents\Lidya 2024\Lidya Learns\Streamlit\patient_data.csv'
-ecg_data = r'C:\Users\Lydia\Documents\Lidya 2024\Lidya Learns\Streamlit\ecg_data.csv'
+patient_data = r'\mount\src\biobytes\patient_data.csv'
+ecg_data = r'\mount\src\biobytes\ecg_data.csv'
 
 # Read the CSV file into a Pandas DataFrame
 try:
