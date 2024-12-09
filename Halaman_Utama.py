@@ -43,7 +43,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
     <div style="text-align: center; padding: 20px; border: 2px solid #990c11; border-radius: 10px;">
-        <img src="https://cdn-icons-png.flaticon.com/512/709/709043.png" alt="Hospital Icon" style="width: 50px; margin-bottom: 10px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3028/3028573.png" alt="Hospital Icon" style="width: 50px; margin-bottom: 10px;">
         <h3 style="margin: 0;">Rumah Sakit</h3>
         <p style="margin: 0; font-size: 18px; color: #333;">Status Pengampu</p>
         <h1 style="margin: 10px 0; color: #990c11;">60</h1>
