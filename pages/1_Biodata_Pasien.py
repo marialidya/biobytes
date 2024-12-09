@@ -23,7 +23,7 @@ except FileNotFoundError:
 # Title of the app
 st.title("Biodata Pasien")
 
-st.write("Lorem ipsum odor amet, consectetuer adipiscing elit. Neque vitae dignissim maecenas bibendum nisi integer vulputate habitasse taciti. Vulputate ad vestibulum eu sociosqu metus lectus aliquam.")
+st.write("Silakan masukkan biodata pasien dan informasi kesehatan yang diambil secara langsung pada tanggal periksa melalui form di bawah ini.")
 
 # Create a form
 with st.form("my_form"):
